@@ -12,6 +12,7 @@ columns = sheet.max_column
 
 merged = sheet.merged_cells.ranges
 
+# test 1
 for i in range(1, int(rows)):
     cell = sheet.cell(row=i, column=1)
 
